@@ -61,3 +61,67 @@ let b = "12345"
 
 console.log(a == b)
 console.log(a===b)
+
+let age = 30
+if (age <13 && age >-1) {
+    console.log("Child")
+}
+
+else if (age > 12  && age <20) {
+    console.log("Teenager")
+}
+
+else if( age> 19 && age <30) {
+    console.log("Youth")
+}
+
+else if (age >29) {
+    console.log("Adult")
+
+}
+
+else{
+    console.log("You have entered an invalid age")
+}
+
+let counter = 0
+while (counter<100){
+    console.log(counter)
+    counter++
+}
+
+for (let count = 0; count<100; count++){
+    console.log(count)
+}
+
+
+for(let n in fruits){
+    console.log(n+"." + " " + fruits[n]);
+    // console.log(n)
+}
+
+for(let n of fruits){
+    console.log(n)
+}
+
+let day = 3
+
+switch(day){
+    case 1 : console.log("Monday");
+            break;
+    case 2 : console.log("Tueday");
+            break;
+    case 3 : console.log("Wednesday");
+            break;
+
+    case 4 : console.log("Thursday");
+            break;
+    case 5 : console.log("Friday");
+            break;
+    case 6 : console.log("Saturday");
+            break;
+    case 7 : console.log("Sunday");
+            break;
+    default: console.log("Thats your day");
+            break;
+}
