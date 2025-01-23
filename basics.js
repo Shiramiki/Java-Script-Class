@@ -22,3 +22,7 @@ console.log("Welcome back " + " " + firstName)
 
 console.log(firstName.toLocaleUpperCase)
 console.log(firstName.length)
+let isStudent = false
+let isHall = true
+
+console.log(isHall & isStudent)
