@@ -52,3 +52,12 @@ let signup = {
 }
 
 console.log(signup)
+console.log(signup.email)
+signup["Username"] = "Shiramiki"
+console.log(signup)
+
+let a = 12345
+let b = "12345"
+
+console.log(a == b)
+console.log(a===b)
